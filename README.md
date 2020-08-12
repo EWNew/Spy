@@ -12,7 +12,7 @@
 
 ###  项目效果展示
 
-<video src="source\演示视频-配音.mp4"></video>
+<video id="video" controls=""src="source/演示视频-配音.mp4" preload="none">
 
 
 
