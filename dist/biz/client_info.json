@@ -1,0 +1,12 @@
+{
+    "client_info": [
+                {
+                    "name": "客户名字",
+                    "proportion": "销售占比",
+                    "amount": "销售金额（万元）",
+                    "date": "报告期",
+                    "source": "数据来源",
+                    "association": "关联关系"
+                }
+            ]
+}

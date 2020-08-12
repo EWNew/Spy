@@ -1,0 +1,13 @@
+{
+    "errcode": "0",
+    "adminLicense": [
+                {
+                    "licenseNumber": "许可文件编号",
+                    "licenseName": "许可文件名称",
+                    "beginTime": "有效期开始",
+                    "endTime": "有效期结束",
+                    "licensingAuthority": "许可机关",
+                    "licenseContent": "许可内容"
+                }
+            ]
+}

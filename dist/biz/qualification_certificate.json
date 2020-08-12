@@ -1,0 +1,10 @@
+{
+    "qualification_certificate": [
+                {
+                    "certificateNumber": "证书编号",
+                    "beginDate": "发证日期",
+                    "endDate": "截止日期",
+                    "type": "证书类型"
+                }
+            ]
+}

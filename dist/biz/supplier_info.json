@@ -1,0 +1,12 @@
+{
+    "supplier_info": [
+                {
+                    "name": "供应商名字",
+                    "proportion": "采购占比",
+                    "amount": "采购金额（万元）",
+                    "date": "报告期",
+                    "source": "数据来源",
+                    "association": "关联关系"
+                }
+            ]
+}

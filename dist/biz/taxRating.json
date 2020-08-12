@@ -1,0 +1,25 @@
+{
+    "taxRating": [
+                {
+                    "evaluationYear": "评价年度aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                    "creditRating": "纳税人信用级别",
+                    "type": "类型",
+                    "taxpayerNumber": "纳税人识别号",
+                    "evaluationUnit": "评价单位"
+                },
+                {
+                    "evaluationYear": "评价年度",
+                    "creditRating": "纳税人信用级别",
+                    "type": "类型",
+                    "taxpayerNumber": "纳税人识别号",
+                    "evaluationUnit": "评价单位"
+                },
+                {
+                    "evaluationYear": "评价年度",
+                    "creditRating": "纳税人信用级别",
+                    "type": "类型",
+                    "taxpayerNumber": "纳税人识别号",
+                    "evaluationUnit": "评价单位"
+                }
+    ]
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<title>Debuggers Map Spy</title>
+    <link rel ="shortcut icon" type="image/x-icon" href="images/logo.png">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=hPQj4slVr0twIeLofcDGxv1BiKq6jvLG"></script>
+
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=hPQj4slVr0twIeLofcDGxv1BiKq6jvLG"></script>
+    <!--加载鼠标绘制工具-->
+    <script type="text/javascript" src="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.js"></script>
+    <link rel="stylesheet" href="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.css" />
+    <!--加载检索信息窗口-->
+    <script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.js"></script>
+    <link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.css" />
+
+    <title>鼠标绘制工具</title>
+
+
+</head>
+<body style="margin:0px 0px;background-image: linear-gradient(to right, darkslategray, deepskyblue);  ">
+<div id="status" style="text-align: center;color: white;font-size: 16px;"></div>
+<div style="width:1600px;height:500px;border:2px solid gray;border-radius:25px;margin:30px auto;background-image: linear-gradient(#e66465, #9198e5);" id="container"></div>
+<div id="citysearch" style="margin-left: 150px;color: white;">
+    城市名: <input id="cityName" type="text" style="width:100px; margin-right:10px;margin-left: 10px" />
+    <input type="button" value="查询" onclick="theLocation()" style="background-color: skyblue;
+            border: none;
+            color: white;
+            padding: 6px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            margin: 4px 2px;
+            cursor: pointer;" />
+</div>
+<div id="panel-result" style="margin-top: 20px" ></div>
+<div id="data-result"></div>
+</body>
+</html>
+
+
+<script type="text/javascript">
+
+    window.onload = function() {
+        if(navigator.geolocation) {
+            document.getElementById("status").innerHTML = "当前已定位.";
+
+            // 百度地图API功能,进行初始化
+            var map = new BMap.Map("container");
+            var point = new BMap.Point(116.331398,39.897445);
+            map.disableDoubleClickZoom();
+            map.centerAndZoom(point,12);
+            map.enableScrollWheelZoom();
+
+            //用于通过城市名定位
+            theLocation = function(){
+                var city = document.getElementById("cityName").value;
+                if(city != ""){
+                    map.centerAndZoom(city,11);      // 用城市名设置地图中心点
+                }
+            };
+
+
+
+
+            // 初始进行自身定位，地图切换到当前地区
+            var geolocation = new BMap.Geolocation();
+            geolocation.getCurrentPosition(function(r){
+                if(this.getStatus() == BMAP_STATUS_SUCCESS){
+                    var mk = new BMap.Marker(r.point);
+                    mk.disableMassClear();
+                    map.addOverlay(mk);
+                    map.panTo(r.point);
+                    // alert('您的位置：'+r.point.lng+','+r.point.lat);
+
+
+
+                    //添加事件监听，当点击鼠标右键时将之前的覆盖物删除
+                    map.addEventListener("rightclick", function(){
+                        map.clearOverlays();//清除由于上次事件留下的痕迹。
+                        map.disableDoubleClickZoom();
+                    });
+
+
+                    //该options用于在search完成时获得搜索到的信息结果
+                    var options = {
+                        onSearchComplete: function(results){
+                            // 判断状态是否正确
+                            if (local.getStatus() == BMAP_STATUS_SUCCESS){
+                                var s = [];
+                                for (var i = 0; i < results.getCurrentNumPois(); i ++){
+                                    s.push(results.getPoi(i).title + ", " + results.getPoi(i).address);
+                                }
+                                //document.getElementById("data-result").innerHTML = s.join("<br/>");
+                            }
+                        }
+                    };
+
+
+
+                    var overlays = [];
+                    //回调获得覆盖物信息
+                    var overlaycomplete = function(e){
+                        overlays.push(e.overlay);
+
+                        if (e.drawingMode == BMAP_DRAWING_CIRCLE) {
+                             createRadius = e.overlay.getRadius();    //获取覆盖圆的半径以及中心点的经纬度坐标
+                             centerlng = e.overlay.getCenter().lng;
+                             centerlat = e.overlay.getCenter().lat;
+                             toSearchPoint = new BMap.Point(centerlng, centerlat);
+
+
+                            local = new BMap.LocalSearch(map,options,{renderOptions: {map: map, autoViewport: false}});  //loacl调用options用于在data-result显示文字
+                            local2 = new BMap.LocalSearch(map, {renderOptions: {map: map, autoViewport: false, panel: "panel-result"}});  //local2不调用options而是panel
+
+                            // 用于显示百度提供数据
+
+                            local2.searchNearby('公司', toSearchPoint, createRadius);//两次搜索进行显示重叠
+                            local.searchNearby('公司', toSearchPoint, createRadius);
+                        }
+                    };
+
+
+
+
+
+                    //覆盖物样式
+                    var styleOptions = {
+                        strokeColor:"gray",    //边线颜色。
+                        fillColor:"yellow",      //填充颜色。当参数为空时，圆形将没有填充效果。
+                        strokeWeight: 1,       //边线的宽度，以像素为单位。
+                        strokeOpacity: 0.8,	   //边线透明度，取值范围0 - 1。
+                        fillOpacity: 0.6,      //填充的透明度，取值范围0 - 1。
+                        strokeStyle: 'solid' //边线的样式，solid或dashed。
+                    }
+
+
+
+
+                    //实例化鼠标绘制工具
+                    var drawingManager = new BMapLib.DrawingManager(map, {
+                        isOpen: false, //是否开启绘制模式
+                        enableDrawingTool: true, //是否显示工具栏
+                        enableCalculate: false,
+                        drawingToolOptions: {
+                            anchor: BMAP_ANCHOR_TOP_RIGHT, //位置
+                            offset: new BMap.Size(5, 5), //偏离值
+                            scale:0.8,
+                            drawingModes : [BMAP_DRAWING_MARKER, BMAP_DRAWING_CIRCLE],
+                            drawingTypes : [
+                                BMAP_DRAWING_MARKER,
+                                BMAP_DRAWING_CIRCLE,//圆的样式
+                            ]
+                        },
+                        circleOptions: styleOptions, //圆的样式
+                    });
+
+
+
+
+
+                    //添加鼠标绘制工具监听事件，用于获取绘制结果
+                    drawingManager.addEventListener('overlaycomplete', overlaycomplete);
+                }
+                else {
+                    alert('failed'+this.getStatus());
+                }
+            },{enableHighAccuracy: true})
+        }
+    };
+
+</script>
+
+<style>
+    .BMap_cpyCtrl {
+        display: none;
+    }
+    .anchorBL {
+        display: none;
+    }
+</style>

@@ -1,0 +1,10 @@
+{
+    "bidding_info": [
+                {
+                    "describe": "描述",
+                    "date": "发布日期",
+                    "region": "所属地区",
+                    "type": "项目分类"
+                }
+            ]
+}

@@ -1,0 +1,17 @@
+{
+    "companyBasicInfo": [
+                {
+                    "companyName": "公司名",
+                    "regCapital": "注册资本",
+                    "estabDate": "成立时间",
+                    "manageState": "管理状态",
+                    "creditCode": "统一社会信用代码",
+                    "businessRegisCode": "工商注册号",
+                    "companyType": "公司类型",
+                    "profession": "行业",
+                    "businessTerm": "营业期限",
+                    "regisAdress": "注册地址",
+                    "represent": "法人"
+                }
+            ]
+}

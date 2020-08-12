@@ -1,0 +1,10 @@
+{
+    "news_info": [
+                {
+                    "title": "新闻标题",
+                    "date": "发布日期",
+                    "source": "新闻来源",
+                    "linkURL": "新闻链接URL"
+                }
+            ]
+}

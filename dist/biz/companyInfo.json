@@ -1,0 +1,104 @@
+{
+    "companyInfo": [
+        {
+            "name": "公司名百度有限公司1",
+            "represent": "法定代表人",
+            "capital": "注册资本",
+            "est_time": "成立时间",
+            "email": "邮箱",
+            "telephone": "",
+            "location": "地址",
+            "url":"http://www.baidu.com"
+        },
+        {
+            "name": "公司名百度有限公司2",
+            "represent": "法定代表人",
+            "capital": "注册资本",
+            "est_time": "成立时间",
+            "email": "",
+            "telephone": "电话",
+            "location": "地址",
+            "url":"http://www.baidu.com"
+        },
+        {
+            "name": "公司名百度有限公司3",
+            "represent": "法定代表人",
+            "capital": "注册资本",
+            "est_time": "成立时间",
+            "email": "邮箱",
+            "telephone": "电话",
+            "location": "地址",
+            "url":"http://www.baidu.com"
+        },
+        {
+            "name": "公司名百度有限公司4",
+            "represent": "法定代表人",
+            "capital": "注册资本",
+            "est_time": "成立时间",
+            "email": "邮箱",
+            "telephone": "电话",
+            "location": "地址",
+            "url":"http://www.baidu.com"
+        },
+        {
+            "name": "公司名百度有限公司5",
+            "represent": "法定代表人",
+            "capital": "注册资本",
+            "est_time": "成立时间",
+            "email": "邮箱",
+            "telephone": "电话",
+            "location": "地址",
+            "url":"http://www.baidu.com"
+        },
+        {
+            "name": "公司名百度有限公司6",
+            "represent": "法定代表人",
+            "capital": "注册资本",
+            "est_time": "成立时间",
+            "email": "邮箱",
+            "telephone": "电话",
+            "location": "地址",
+            "url":"http://www.baidu.com"
+        },
+        {
+            "name": "公司名百度有限公司7",
+            "represent": "法定代表人",
+            "capital": "注册资本",
+            "est_time": "成立时间",
+            "email": "邮箱",
+            "telephone": "电话",
+            "location": "地址",
+            "url":"http://www.baidu.com"
+        },
+        {
+            "name": "公司名百度有限公司8",
+            "represent": "法定代表人",
+            "capital": "注册资本",
+            "est_time": "成立时间",
+            "email": "邮箱",
+            "telephone": "电话",
+            "location": "地址",
+            "url":"http://www.baidu.com"
+        },
+        {
+            "name": "公司名百度有限公司9",
+            "represent": "法定代表人",
+            "capital": "注册资本",
+            "est_time": "成立时间",
+            "email": "邮箱",
+            "telephone": "电话",
+            "location": "地址",
+            "url":"http://www.baidu.com"
+        },
+        {
+            "name": "公司名百度有限公司10",
+            "represent": "法定代表人",
+            "capital": "注册资本",
+            "est_time": "成立时间",
+            "email": "邮箱",
+            "telephone": "电话",
+            "location": "地址",
+            "url":"http://www.baidu.com"
+        }
+    ]
+}

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09393b1a-0790-41d5-b6ee-219dfc2a53d4" name="默认更改列表" comment="默认更改列表">
+      <change afterPath="$PROJECT_DIR$/../seimiCrawler/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seimiCrawler/seimiCrawler.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/AdminCommenSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/AdminPunishSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/BidSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/BranchSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/CapitalSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/GongGaoSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/LvDunSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/NewsSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/NianBaoSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/PatentSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/QXBNewsSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/SpfSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spiderA/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spiderD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spiderD/.idea/spiderD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spiderD/spiderD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/chinahitech/spider/Spider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/com/chinahitech/spider/Spider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1eLkhYiJxqlIWGqqhQTmQroHpXk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RunManager" selected="Application.PatentSpider">
+    <configuration name="AdminPunishSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.chinahitech.spider.AdminPunishSpider" />
+      <module name="spider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.chinahitech.spider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BranchSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.chinahitech.spider.BranchSpider" />
+      <module name="spider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.chinahitech.spider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CapitalSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.chinahitech.spider.CapitalSpider" />
+      <module name="spider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.chinahitech.spider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LvDunSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.chinahitech.spider.LvDunSpider" />
+      <module name="spider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.chinahitech.spider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatentSpider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.com.chinahitech.spider.PatentSpider" />
+      <module name="spider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.chinahitech.spider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PatentSpider" />
+        <item itemvalue="Application.AdminPunishSpider" />
+        <item itemvalue="Application.CapitalSpider" />
+        <item itemvalue="Application.LvDunSpider" />
+        <item itemvalue="Application.BranchSpider" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
+    <option name="runUnderTerminal" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09393b1a-0790-41d5-b6ee-219dfc2a53d4" name="默认更改列表" comment="" />
+      <created>1594108379408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594108379408</updated>
+      <workItem from="1594108383765" duration="828000" />
+      <workItem from="1594109614931" duration="2086000" />
+      <workItem from="1594124833952" duration="2517000" />
+      <workItem from="1594213619160" duration="7316000" />
+      <workItem from="1594260690343" duration="6605000" />
+      <workItem from="1594292764619" duration="2877000" />
+      <workItem from="1594554117277" duration="1573000" />
+      <workItem from="1594605111796" duration="2401000" />
+      <workItem from="1594777279104" duration="6779000" />
+      <workItem from="1594801092617" duration="8000" />
+      <workItem from="1594805312953" duration="10000" />
+      <workItem from="1594950825726" duration="7404000" />
+      <workItem from="1594971562313" duration="1856000" />
+      <workItem from="1594987280151" duration="2074000" />
+      <workItem from="1595037903674" duration="12409000" />
+      <workItem from="1595062995745" duration="602000" />
+      <workItem from="1595068781751" duration="3131000" />
+      <workItem from="1595075211696" duration="4163000" />
+      <workItem from="1595084152047" duration="392000" />
+      <workItem from="1595122908439" duration="8219000" />
+      <workItem from="1595140027121" duration="1814000" />
+      <workItem from="1595141921637" duration="1446000" />
+      <workItem from="1595143448853" duration="1179000" />
+      <workItem from="1595144733838" duration="1000" />
+      <workItem from="1595144770580" duration="23000" />
+      <workItem from="1595162093909" duration="29474000" />
+      <workItem from="1595291708873" duration="11765000" />
+      <workItem from="1595314045446" duration="6238000" />
+      <workItem from="1595377822775" duration="10847000" />
+      <workItem from="1595416241010" duration="3882000" />
+      <workItem from="1595464895037" duration="21816000" />
+      <workItem from="1595552451781" duration="10549000" />
+      <workItem from="1595571251141" duration="2231000" />
+      <workItem from="1595573894613" duration="1067000" />
+      <workItem from="1595580521801" duration="2204000" />
+      <workItem from="1595588311645" duration="19779000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1594777348103">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1594777348103" />
+    <state x="404" y="10" key="CommitChangelistDialog2" timestamp="1595072666123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="404" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595072666123" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1595573650405">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595573650405" />
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1595667891253">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595667891253" />
+    <state width="1638" height="391" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1594111801157" />
+    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1595667891253">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595667891253" />
+    <state width="1638" height="391" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1594111801147" />
+    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1595667891253">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595667891253" />
+    <state width="1638" height="391" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1594111801145" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1595667891253">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595667891253" />
+    <state width="1638" height="391" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1594111801149" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1595509881569">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595509881569" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1595509881568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595509881568" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1595509881568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595509881568" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1595509881569">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595509881569" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1595642728157">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595642728157" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1595588311298">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595588311298" />
+    <state x="178" y="120" key="new project wizard" timestamp="1594951762219">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="120" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1594951762219" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595582293042">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595582293042" />
+  </component>
+</project>
