@@ -13,8 +13,9 @@
 ###  项目效果展示
 
 <video id="video" controls=""src="source/演示视频-配音.mp4" preload="none">
-
-
+（md无法播放视频）
+  
+演示视频地址：http://qf9cj398h.hn-bkt.clouddn.com/%E6%BC%94%E7%A4%BA%E8%A7%86%E9%A2%91-%E9%85%8D%E9%9F%B3.mp4
 
 ###  项目代码目录说明
 
